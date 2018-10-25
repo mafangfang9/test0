@@ -1,3 +1,4 @@
+# noinspection PyInterpreter
 """test0 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^goods/', views.goods_view),
     url(r'^user/',views.user_views),
+    url(r'^sss/',views.sss_view),
 ]
