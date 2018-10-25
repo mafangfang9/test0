@@ -7,3 +7,8 @@ def goods_view(request):
 
 def sss_view(request):
     return HttpResponse("123")
+
+
+def user_views(request):
+    return HttpResponse('用户登录功能')
+
