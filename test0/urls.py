@@ -19,4 +19,5 @@ import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^goods/', views.goods_view),
+    url(r'^user/',views.user_views),
 ]
