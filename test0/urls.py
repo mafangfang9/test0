@@ -20,7 +20,7 @@ from .import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^goods/', views.goods_view),
-    url(r'^user/',views.user_views),
     url(r'^sss/',views.sss_view),
     url(r'^rain/',views.goods_view)
+    url(r'^user/',views.user_view),
 ]
